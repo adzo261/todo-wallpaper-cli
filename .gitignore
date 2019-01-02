@@ -1,0 +1,6 @@
+__pycache__
+.vscode
+script.egg-info
+todo.egg-info
+todo.db
+img.png
