@@ -13,7 +13,7 @@
 
 | Commands             |              Functions               |
 | -------------------- | :----------------------------------: |
-| `$ todo`             |         lists all the tasks          |
+| `$ todo`             |         Lists all the tasks          |
 | `$ todo -a "String"` |         Adds String to tasks         |
 | `$ todo -rm a,b,c,d` | Removes tasks with ID's a,b,c and d. |
 | `$ todo -rm all`     |          Removes all tasks           |
