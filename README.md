@@ -21,9 +21,9 @@
 
 
 ## Development setup
-Download zip file and extract and create a new environment-
+Fork it and clone as local repository.
 ```sh
-$ cd project
+$ cd todo-wallpaper-cli
 $ virtualenv venv
 $ . venv/bin/activate
 $ pip install requirements.txt
