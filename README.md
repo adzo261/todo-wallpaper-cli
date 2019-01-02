@@ -7,6 +7,8 @@
 - Always keep todo tasks infront of eyes as a wallpaper
 - No more GUI application or extensions to view and manage tasks.
 
+#### Note
+Currently, wallpaper can be set only on Ubuntu(GNOME).
 
 
 ## Usage
