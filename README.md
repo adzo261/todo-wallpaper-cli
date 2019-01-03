@@ -10,7 +10,8 @@
 #### Note
 Currently, wallpaper can be set only on Ubuntu(GNOME).
 
-
+##Demo
+![](demo/Demo.gif)
 ## Usage
 
 | Commands             |              Functions               |
