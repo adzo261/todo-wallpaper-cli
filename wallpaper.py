@@ -1,6 +1,15 @@
 import os
 from db_helper import get_list
 from PIL import Image, ImageDraw, ImageFont
+import gi
+gi.require_version("Gdk", "3.0")
+from gi.repository import Gdk
+
+
+
+# Note: GTK/GDK function details are apparently prone to changing,
+# Might want to use QT or wx instead
+screen_resolution = Gdk.Monitor.get_workarea(Gdk.Display.get_primary_monitor(Gdk.Display.get_default()))
 
 
 PATH_TO_IMG = os.path.join(os.path.abspath(
@@ -11,7 +20,7 @@ FONT_COLOR = (255, 255, 255)
 FONT_YOFFSET = 50
 FONT_XCOORD = 200
 FONT_YCOORD = 35
-DIMENSION = (1366, 768)
+DIMENSION = (screen_resolution.width, screen_resolution.height)
 WALLPAPER_COLOR = (128, 59, 201)
 
 
