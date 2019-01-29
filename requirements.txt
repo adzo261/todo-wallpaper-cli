@@ -1,4 +1,4 @@
 Click==7.0
 pickleDB==0.8.1
 Pillow==5.3.0
-gi
+PyQt5==5.11.3

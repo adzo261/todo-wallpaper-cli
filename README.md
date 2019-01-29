@@ -8,7 +8,7 @@
 - No more GUI application or extensions to view and manage tasks.
 
 #### Note
-Currently, wallpaper can be set only on Ubuntu(GNOME).
+Works on Ubuntu(Gnome) and Windows
 
 ## Demo
 ![](demo/Demo.gif)
