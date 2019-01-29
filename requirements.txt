@@ -1,4 +1,8 @@
 Click==7.0
 pickleDB==0.8.1
 Pillow==5.3.0
+<<<<<<< HEAD
 PyQt5==5.11.3
+=======
+
+>>>>>>> 4969d0d2b817e3fe12c12ba9e7b4aa4150d7194e
