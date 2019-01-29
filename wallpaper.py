@@ -37,5 +37,5 @@ def set_wallpaper():
     if platform.system() == 'Linux':
         os.system(
             "/usr/bin/gsettings set org.gnome.desktop.background picture-uri file:" + PATH_TO_IMG)
-    elif platform.system() == 'Windwos':
+    elif platform.system() == 'Windows':
         ctypes.windll.user32.SystemParametersInfoW(20, 0, PATH_TO_IMG, 0)
