@@ -8,7 +8,8 @@
 - No more GUI application or extensions to view and manage tasks.
 
 #### Note
-Works on Ubuntu(Gnome) and Windows
+- Works on Ubuntu(Gnome).
+- Has some issues rendering fonts and wallpaper on Windows.
 
 ## Demo
 ![](demo/Demo.gif)
